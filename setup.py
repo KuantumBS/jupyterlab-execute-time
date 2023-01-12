@@ -41,7 +41,7 @@ setup_args = dict(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    install_requires=["jupyter_server>=1.6,<3"],
+    install_requires=["jupyter_server>=1.6"],
     zip_safe=False,
     include_package_data=True,
     python_requires=">=3.6",
@@ -55,6 +55,9 @@ setup_args = dict(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Framework :: Jupyter",
     ],
 )
